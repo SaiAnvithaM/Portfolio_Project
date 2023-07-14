@@ -1,0 +1,828 @@
+body {
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+/*    opacity: 0.8;*/
+    background-image: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwZGFya3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top:-5vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border:3px solid white;
+    border-shadow:0px 0px 60px 40px lightgrey;
+}
+#Stylepara{
+    margin:2% 10% 2% 10%;
+    color:grey;
+    text-align: center;
+}
+#about #my-image img{
+     border-shadow:0px 0px 60px 40px lightgrey;
+}
+
+
+/*  Skills section*/
+#skills{
+/*    background-color: #e7dcdc;*/
+text-align: center;
+}
+section{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+section:nth-child(2n){
+    background-color:#e0e0e0;
+}
+section:nth-child(2n+1){
+    background-color:white;
+}
+.section-heading{
+    width:auto;
+    padding:20px 10px 10px;
+    margin:10px auto;
+    font-weight:400px;
+    align-text:center;
+}
+.section-heading span{
+    font-size:40px;
+    color:#1d4498;
+    display:inline-block;
+    padding-top:10px;
+    margin-right:0.5rem;
+
+}
+.mb-75px{
+    margin-bottom:75px;
+}
+#section-heading{
+    width:auto;
+    padding:20px 10px 20px;
+    margin:10px auto;
+    
+    font-weight:400px;
+}
+/*All the small elements in a container*/
+.skill-display{
+    height:auto;
+    wdith:75%;
+    padding:10px;
+    margin-bottom:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+/*    background-color: #e7dcdc;*/
+}
+
+/*for java C++ py*/
+.skill-progress{
+    height:1.8rem;
+    width:7rem;
+    margin:20px;
+/*    padding-left:5%;*/
+    border-radius:0.8rem;
+    background-color: lightgrey;
+}
+.skill-progress > div{
+    border-radius: 20px 0px 0px 20px;
+}
+.percent_1{
+    width:75%;
+    height:inherit;
+}
+.percent_1_color{
+    background-color:#466de4 ;
+}
+.percent_1 span{
+    font-size:1rem;
+    margin-left:10px;
+    vertical-align:middle;
+    margin-top:-40px;
+    color:white;
+}
+
+
+
+
+
+/*for python*/
+.skill-progress2{
+    height:1.8rem;
+    width:7rem;
+    margin:20px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+.percent_2{
+    width:50%;
+    height:inherit;
+}
+.percent_2_color{
+    background-color:#b53131 ;
+}
+.skill-progress2>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.percent_2 span{
+    color:white;
+    font-size:1rem;
+    margin-left:10px;
+    vertical-align:middle;
+    margin-top:-40px;
+}
+
+
+
+
+
+/*for HTML*/
+.skill-progress3
+{
+height:1.8rem;
+width:7rem;
+background-color: lightgrey;
+margin:20px;
+border-radius:20px;
+}
+.percent_3{
+    width:90%;
+    height:inherit;
+}
+.percent_3_color{
+    background-color: #824a8b;
+}
+.skill-progress3 > div{
+  border-radius: 20px 0px 0px 20px;
+}
+.percent_3 span{
+    font-size:1rem;
+    margin-left:10px;
+    color:white;
+    vertical-align:middle;
+    margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+
+/*for css*/
+.skill-progress4{
+    height:1.8rem;
+    width:7rem;
+    border-radius:20px;
+    background-color: lightgrey;
+    margin:20px;
+}
+.percent_4{
+    width:80%;
+    height:inherit;
+}
+.percent_4_color{
+    background-color:#06580d ;
+}
+.skill-progress4>div{
+    border-radius:20px 0px 0px 20px;
+}
+.percent_4 span{
+    font-size:1rem;
+    color:white;
+    margin-left:10px;
+    vertical-align:middle;
+    margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+/*javascript*/
+.skill-progress5{
+    height:1.8rem;
+    width:7rem;
+    border-radius:20px;
+    background-color: lightgrey;
+    margin:20px;
+}
+.percent_5{
+    width:50%;
+    height:inherit;
+}
+.percent_5_color{
+    background-color:#b53131 ;
+}
+.skill-progress5>div{
+    border-radius:20px 0px 0px 20px;
+}
+.percent_5 span{
+    font-size:1rem;
+    color:white;
+    margin-left:10px;
+    vertical-align:middle;
+    margin-top:-40px;
+}
+
+
+
+
+
+
+
+
+/*nodeJs*/
+.skill-progress6{
+    height:1.8rem;
+    width:7rem;
+    border-radius:20px;
+    background-color: lightgrey;
+    margin:20px;
+}
+.percent_6{
+    width:75%;
+    height:inherit;
+}
+.percent_6_color{
+    background-color:#466de4 ;
+}
+.skill-progress6>div{
+    border-radius:20px 0px 0px 20px;
+}
+.percent_6 span{
+    font-size:1rem;
+    color:white;
+    margin-left:10px;
+    vertical-align:middle;
+    margin-top:-40px;
+}
+
+
+
+
+
+
+/*  Work Experience*/
+#projects >h1{
+    margin-top:50px;
+    color:#1d4498;
+}
+#projects i{
+    margin-right:10px;
+    font-size:40px;
+    color:#1d4498;
+}
+   
+.timeline{
+   position:relative;
+    width:100%;
+    border:2px solid black;
+}
+.timeline-box{
+    position:relative;
+    width:40%;
+    min-height:150px;
+    border:2px solid black;
+    margin:5px;
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+.timeline-divider{
+    border:2px dashed lightblue;
+   height:75%;
+    width:0;
+    position:absolute;
+    top:10%;
+    left:50%;
+}
+.timeline-plane{
+    top:80%;
+    position:sticky;
+    z-index:2;
+    transform:rotate(90deg);
+    
+}
+/*.timeline-box:nth-child(2n+1)::after{
+    content:'';
+    border-radius:50%;
+    background-color:grey;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    right:-24%;
+    position:absolute;
+    z-index:1;
+}
+.timeline-box:nth-child(2n)::after{
+    content:'';
+    border-radius:50%;
+    background-color:grey;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    left:-13%;
+    position:absolute;
+    z-index:1;
+}*/
+.timeline-box h5{
+    position:relative;
+    font-size:0.8rem;
+    margin-top:0%;
+    width:50%;
+    text-align:center
+}
+
+.timeline-box p{
+    text-align: center;
+    font-size: 0.8rem;
+   }
+
+
+
+
+
+
+
+/*  Education*/
+#education h1{
+    font-size:45px;
+    color:#1d4498;
+}
+.Eduline{
+    position:relative;
+    height:75%;
+    width:100%;
+    border:2px solid black;
+}
+.Eduline-box{
+    padding:10px;
+    margin:0.4%;
+    position:relative;
+    width:40%;
+    height:150px;
+/*    left:5%;*/
+    border:2px solid black;
+}
+.Eduline-box p{
+    font-size:0.9rem;
+    text-align: center;
+}
+w{
+    color: blue;
+}
+.Eduline-box:nth-child(2n){
+    left:53%;
+}
+.Eduline-divider{
+    border:2px dashed lightblue;
+   height:75%;
+    width:0;
+    position:absolute;
+    top:10%;
+    left:50%;
+}
+.Eduline-car{
+    font-size: 39px;
+    top:80%;
+    position:sticky;
+    z-index:2;
+    margin-left:-10%;
+    transform:rotate(90deg);
+    color:#1d4498;
+}
+/*.Eduline-box:nth-child(2n+1)::after{
+    content:'';
+    height:0.5rem;
+    width:0.5rem;
+    background-color:red;
+    border-radius:50%;
+    position:absolute;
+    top:35%;
+   right:-5rem;
+    z-index:1;
+}
+.Eduline-box:nth-child(2n)::after{
+    content:'';
+    height:0.5rem;
+    width:0.5rem;
+    background-color:red;
+    border-radius:50%;
+    position:absolute;
+    top:35%;
+   left:-11%;
+    z-index:1;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact*/
+#contact{
+    text-align:center;
+     background-image:linear-gradient(50deg,#2857a4 ,#403066 74%);
+}
+#contact>div{
+    text-align:center;
+    color:white;
+    
+}
+#contact span i{
+     margin-top:40px;
+    font-size:25px;
+}
+#heading-section{
+    padding:20px;
+}
+#contact-heading{ 
+    margin-left:6px;
+    font-style: bold;
+    font-size:30px;
+}
+#details-section input,textarea{
+     max-width: 90%;
+    padding: 4px 10px;
+    border:0px solid transparent;
+    border-bottom:2px solid white;
+    width:90%;
+    background-color:transparent;
+     line-height: 1.6;
+    font-size: 1.05rem;
+    color: #d9dcdd;
+}
+#details-section button{
+    margin-top:20px;
+    text-align:center;
+    padding:10px;
+    border:2px white solid;
+    color:white;
+    background-color:transparent;
+
+}
+#details-section h1{
+    color:white
+}
+#details-section p{
+    margin-left:-125px;
+    align-items:start;
+    color:grey;
+}
+#details-section {
+    margin:0px;
+    vertical-align:bottom;
+    display:inline-block;
+    padding:75px;
+    width:75%;
+}
+#address-title{
+    font-size:1.8rem;
+    margin-bottom:-10px;
+    text-align:left;
+    color:white;
+}
+#aside-section{
+    font-size:1.5rem;
+    text-align:left;
+     display:inline-block;
+    width:50%;
+    vertical-align:top;
+}
+#aside-section p{
+    margin-left:-5px;
+    margin-right:15px;
+    }
+#contact-container{
+    display:flex;
+}
+#div1 , #div2, #div3{
+    margin-bottom:-15px;
+}
+#div3 span{
+    font-size: 20px;
+}
+
+#contact{
+    padding:20px;
+}
+#contact-container i{
+    color:white;
+}
+
+#details-section button:hover{
+  background-color: lightgrey;
+  color:blue;
+}
+
+
+
+/*Achievements*/
+#Achievements h1{
+     font-size:32px;
+    color:#1d4498;
+}
+#Achievements i{
+    font-size: 38px;
+}
+.achieveline-box{
+padding:10px;
+    margin:0.4%;
+    margin-left:-16px;
+    position:relative;
+    width:40%;
+    height:150px;
+    left:5%;
+    border:2px solid black;
+}
+.achieveline-box p{
+    font-size:0.9rem;
+    text-align: center;
+}
+.achieveline{
+    position:relative;
+    height:75%;
+    width:100%;
+    border:2px solid black;
+    margin:0px 0px 30px 0px;
+}
+.achieveline-box:nth-child(2n){
+    left:57%;
+}
+/*.achieveline-box:nth-child(2n+1)::after{
+    content:'';
+    border-radius:50%;
+    background-color:red;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    right:-12%;
+    position:absolute;
+    z-index:1;
+}
+.achieveline-box:nth-child(2n)::after{
+    content:'';
+    border-radius:50%;
+    background-color:red;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    left:-10%;
+    position:absolute;
+    z-index:1;
+}*/
+.achieveline-divider{
+    border:2px dashed lightblue;
+   height:85%;
+    width:0;
+    position:absolute;
+    top:3%;
+    left:50%;
+}
+.achieveline-star{
+    color:#1d4498;
+    font-size:10px;
+    top:80%;
+    position:sticky;
+    z-index:2;
+/*    margin-left:-10%;*/
+    transform:rotate(90deg);
+    
+}
+
+
+
+
+/*responsive*/
+@media screen and (max-width:500px){
+    .timeline-box{
+        text-align: center;
+        height:200px;
+        width:80%;
+
+    }
+    .timeline-box:nth-child(2n){
+    left:0%;
+}
+.timeline-box{
+    width:95%;
+   margin:auto;
+    margin-bottom: 5px;
+    padding:10px 5px 10px 5px;
+}
+.timeline-box p{
+    font-size: 15px;
+}
+.timeline-box h5{
+    font-size: 20px;
+}
+.timeline>div{
+    margin-top: 2px;
+}
+.timeline-plane{
+    visibility: hidden;
+}
+.timeline-divider{
+     visibility: hidden;
+}
+.timeline-box:nth-child(2n+1)::after{
+   
+    visibility: hidden;
+}
+.timeline-box:nth-child(2n)::after{
+    visibility: hidden;
+}
+.Eduline-box:nth-child(2n){
+    left:0%;
+    width:92%;
+}
+.Eduline-box:nth-child(2n+1){
+    width:92%;
+}
+.Eduline-box:nth-child(2n+1)::after{
+   
+    visibility: hidden;
+}
+.Eduline-box:nth-child(2n)::after{
+    visibility: hidden;
+}
+.Eduline-box{
+    width:80%;
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.Eduline-divider{
+    visibility: hidden;
+}
+.Eduline-car{
+    visibility: hidden;
+}
+#my-name{
+    font-size: 25px;
+}
+#details-section{
+    width:100%;
+}
+.aside-section{
+    vertical-align: down;
+    font-size:1.5rem;
+    text-align:left;
+     display:inline-block;
+    width:100%;
+   
+}
+#details-section {
+    vertical-align:top;
+    display:inline-block;
+    padding:75px;
+    width:75%;
+}
+.achieveline-box:nth-child(2n+1){
+    width:92%;
+}
+.achieveline-box:nth-child(2n){
+    left:5%;
+    width:92%;
+}
+.achieveline-box:nth-child(2n+1)::after{
+   visibility: hidden;
+}
+.achieveline-box:nth-child(2n)::after{
+    visibility: hidden;
+}
+.achieveline-divider{
+    visibility: hidden;
+}
+.achieveline-star{
+   visibility: hidden;
+}
+
+#contact-container{
+    display:block;
+}
+#details-section label{
+    font-size: 20px;
+    margin:0%;
+}
+#aside-section{
+    font-size: 20px;
+    width:100%;
+    text-align: center;
+}
+#aside-section h1{
+    text-decoration: underline;
+    font-size: 28px;
+}
+#address-title {
+    text-align: center;
+}
+#address-title-div h1{
+    font-size: 22px;
+    text-decoration: underline;
+}
+#social-icons ul{
+  margin:20px 0px 10px 0px;
+}
+}
