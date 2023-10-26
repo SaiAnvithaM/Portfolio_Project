@@ -1,3 +1,4 @@
+#Anvitha's Portfolio
 <html lan="en">
 <head>
 	<meta charset="UTF-8">
@@ -147,52 +148,52 @@ section:nth-child(2n+1){
 }
 /*for java C++ py*/
 .skill-progress{
-height:1.8rem;
-width:7rem;
-background-color: lightgrey;
-margin:20px;
-border-radius:20px;
+    height:1.8rem;
+    width:7rem;
+    margin:20px;
+/*    padding-left:5%;*/
+    border-radius:0.8rem;
+    background-color: lightgrey;
+}
+.skill-progress > div{
+    border-radius: 20px 0px 0px 20px;
 }
 .percent_1{
     width:75%;
     height:inherit;
 }
 .percent_1_color{
-    background-color: #466de4;
-}
-.skill-progress>div{
-  border-radius: 20px 0px 0px 20px;
+    background-color:#466de4 ;
 }
 .percent_1 span{
     font-size:1rem;
     margin-left:10px;
-    color:white;
     vertical-align:middle;
     margin-top:-40px;
+    color:white;
 }
 /*for python*/
-.skill-progress2
-{
-height:1.8rem;
-width:7rem;
-background-color: lightgrey;
-margin:20px;
-border-radius:20px;
+.skill-progress2{
+    height:1.8rem;
+    width:7rem;
+    margin:20px;
+    background-color: lightgrey;
+    border-radius: 20px;
 }
 .percent_2{
     width:50%;
     height:inherit;
 }
 .percent_2_color{
-    background-color: #824a8b;
+    background-color:#b53131 ;
 }
 .skill-progress2>div{
-  border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0px 0px 20px;
 }
 .percent_2 span{
+    color:white;
     font-size:1rem;
     margin-left:10px;
-    color:white;
     vertical-align:middle;
     margin-top:-40px;
 }
@@ -319,9 +320,6 @@ border-radius:20px;
     border:2px solid black;
     margin:5px;
 }
-.timeline-box:nth-child(2n){
-    left:53%;
-}
 .timeline-divider{
     border:2px dashed lightblue;
    height:75%;
@@ -373,9 +371,6 @@ border-radius:20px;
 }
 w{
     color: blue;
-}
-.Eduline-box:nth-child(2n){
-    left:53%;
 }
 .Eduline-divider{
     border:2px dashed lightblue;
@@ -517,7 +512,7 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
-/*.achieveline-box:nth-child(2n+1)::after{
+.achieveline-box:nth-child(2n+1)::after{
     content:'';
     border-radius:50%;
     background-color:red;
@@ -538,7 +533,7 @@ padding:10px;
     left:-10%;
     position:absolute;
     z-index:1;
-}*/
+}
 .achieveline-divider{
     border:2px dashed lightblue;
    height:85%;
@@ -557,11 +552,6 @@ padding:10px;
     transform:rotate(90deg);
 }
 /*responsive*/
-@media screen and (max-width:100vw){
-    body{
-        width:100%;
-    }
-}
 @media screen and (min-width:500px){
     .timeline-box{
         text-align: center;
@@ -774,13 +764,13 @@ padding:10px;
                 <span>SKILLS</span>
     <div class="skill-display">
         <div class="skill-progress">
-            <div class="percent_1 percent_1_color"
+            <div class="percent_1 percent_1_color">
             <div class="skill-name">
                 <span>Java</span>
             </div>
         </div>
         <div class="skill-progress2">
-            <div class="percent_2 percent_2_color"
+            <div class="percent_2 percent_2_color">
             <div class="skill-name2">
                 <span>Python</span>
             </div>
@@ -815,8 +805,6 @@ padding:10px;
         </div>
     </div>
    </div>
-</section>
-        </section>
         <section id="projects"> 
             <h1 class="projects-heading mb75px">
             <span><i class="fa-sharp fa-solid fa-lightbulb-gear"></i></span>
@@ -840,6 +828,7 @@ padding:10px;
                     <i class="fa-solid fa-plane"></i>
                 </div>
                 </div>
+            </div>
             </div>
         </section>
         <section id="education">
@@ -866,6 +855,7 @@ padding:10px;
                     <i class="fa-solid fa-car-side"></i>
                 </div>
                 </div>
+            </div>
             </div>
         </section>
         <section id="Achievements">
@@ -904,10 +894,11 @@ padding:10px;
                     <i class="fa-solid fa-star"></i>
                 </div>
                 </div>
+        </section>
         <section id="contact">
         <div id="heading-section">
         <span><i class="fa-regular fa-address-card" style="color:white"></i></span>
-            <span id="contact-heading" style="color:white">Contact</span>
+            <span id="contact-heading">Contact</span>
             </div>
 <div id="contact-container">
     <div id="details-section">
@@ -920,28 +911,28 @@ padding:10px;
         <button type="button">SEND MESSAGE TO ANVITHA<i class="fa-solid fa-heart" style="color: red; font-size: 20px;"></i></button>
     </div>
       <div id="aside-section">
-          <h1 style="color:white">
+          <h1>
               Get in touch
           </h1>
           <p>
               For any queries you can reach me out at any time  
           </p>
           <div id="address-title-div">
-          <h1 id="address-title" style="color:white">
+          <h1 id="address-title">
               My Address
           </h1>
       </div>
           <div id="div1">
           <span><i class="fa-solid fa-location-dot"></i></span>
-          <span style="color:white">Karimnagar, Telangana, India</span>
+          <span>Karimnagar, Telangana, India</span>
                 </div>
           <div id="div2">
               <span><i class="fa-solid fa-mobile-screen"></i></span>
-              <span style="color:white">8985229474</span>
+              <span>8985229474</span>
           </div>
           <div id="div 3">
               <span><i class="fa-regular fa-envelope"></i></span>
-              <span style="font-size:1rem" style="color:white">saianvithamamidala17@gmail.com </span>
+              <span style="font-size:1rem">saianvithamamidala17@gmail.com </span>
           </div>
     </div>
       </div>   
@@ -978,12 +969,3 @@ padding:10px;
                 	---Anvitha
                 </div>
     </section>
-    
-
-
-	
-
-   
-
-
-	
