@@ -512,28 +512,6 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
-.achieveline-box:nth-child(2n+1)::after{
-    content:'';
-    border-radius:50%;
-    background-color:red;
-    height:0.5rem;
-    width:0.5rem;
-    top:27%;
-    right:-12%;
-    position:absolute;
-    z-index:1;
-}
-.achieveline-box:nth-child(2n)::after{
-    content:'';
-    border-radius:50%;
-    background-color:red;
-    height:0.5rem;
-    width:0.5rem;
-    top:27%;
-    left:-10%;
-    position:absolute;
-    z-index:1;
-}
 .achieveline-divider{
     border:2px dashed lightblue;
    height:85%;
@@ -769,12 +747,14 @@ padding:10px;
                 <span>Java</span>
             </div>
         </div>
+	</div>
         <div class="skill-progress2">
             <div class="percent_2 percent_2_color">
             <div class="skill-name2">
                 <span>Python</span>
             </div>
         </div>
+	</div>
     <div class="skill-progress3">
         <div class=
         "percent_3 percent_3_color">
