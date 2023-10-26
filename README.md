@@ -1,17 +1,18 @@
-# Portfolio_Project
-A self portfolio project.
-<!DOCTYPE html>
+#Anvitha's Portfolio
 <html lan="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Portfolio</title>
 <style>
-body {
+	body {
     margin: 30px;
     font-family: sans-serif;
     font-size: 30px;
+    height:29.7cm;
+    width:21cm;
 }
+/* Body Header */
 #body-header {
     height: 65vh;
 /*    opacity: 0.8;*/
@@ -21,6 +22,7 @@ body {
     background-attachment: fixed;
     padding-top: 1.2rem;
 }
+/* Horizontal Lists */
 .horizontal-list {
     list-style: none;
     padding-left: 0px;
@@ -335,28 +337,6 @@ border-radius:20px;
     z-index:2;
     transform:rotate(90deg);
 }
-.timeline-box:nth-child(2n+1)::after{
-    content:'';
-    border-radius:50%;
-    background-color:grey;
-    height:0.5rem;
-    width:0.5rem;
-    top:27%;
-    right:-24%;
-    position:absolute;
-    z-index:1;
-}
-.timeline-box:nth-child(2n)::after{
-    content:'';
-    border-radius:50%;
-    background-color:grey;
-    height:0.5rem;
-    width:0.5rem;
-    top:27%;
-    left:-13%;
-    position:absolute;
-    z-index:1;
-}*/
 .timeline-box h5{
     position:relative;
     font-size:0.8rem;
@@ -415,28 +395,6 @@ w{
     transform:rotate(90deg);
     color:#1d4498;
 }
-.Eduline-box:nth-child(2n+1)::after{
-    content:'';
-    height:0.5rem;
-    width:0.5rem;
-    background-color:red;
-    border-radius:50%;
-    position:absolute;
-    top:35%;
-   right:-5rem;
-    z-index:1;
-}
-.Eduline-box:nth-child(2n)::after{
-    content:'';
-    height:0.5rem;
-    width:0.5rem;
-    background-color:red;
-    border-radius:50%;
-    position:absolute;
-    top:35%;
-   left:-11%;
-    z-index:1;
-}*/
 /*contact*/
 #contact{
     text-align:center;
@@ -444,7 +402,7 @@ w{
 }
 #contact>div{
     text-align:center;
-    color:white; 
+    color:white;
 }
 #contact span i{
      margin-top:40px;
@@ -560,7 +518,7 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
-.achieveline-box:nth-child(2n+1)::after{
+/*.achieveline-box:nth-child(2n+1)::after{
     content:'';
     border-radius:50%;
     background-color:red;
@@ -581,7 +539,7 @@ padding:10px;
     left:-10%;
     position:absolute;
     z-index:1;
-}
+}*/
 .achieveline-divider{
     border:2px dashed lightblue;
    height:85%;
@@ -600,7 +558,12 @@ padding:10px;
     transform:rotate(90deg);
 }
 /*responsive*/
-@media screen and (max-width:500px){
+@media screen and (max-width:100vw){
+    body{
+        width:100%;
+    }
+}
+@media screen and (min-width:500px){
     .timeline-box{
         text-align: center;
         height:200px;
@@ -726,16 +689,15 @@ padding:10px;
   margin:20px 0px 10px 0px;
 }
 }
-}
+</style>
     <!-- adding css file -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- for html icon -->
 	<script src="https://kit.fontawesome.com/1dc91dcf26.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
 <header id="body-header">
-        <nav>
+        <nav id="nav">
             <ul class="horizontal-list text-center nav-menu">
                 <li>
                     <a href="#"> Home </a>
@@ -879,9 +841,9 @@ padding:10px;
                     <i class="fa-solid fa-plane"></i>
                 </div>
                 </div>
-            </div>   
             </div>
-	</section>
+            </div>
+        </section>
         <section id="education">
              <h1>
                  <span><i class="fa-solid fa-graduation-cap"></i></span>
@@ -951,7 +913,6 @@ padding:10px;
         <span><i class="fa-regular fa-address-card" style="color:white"></i></span>
             <span id="contact-heading">Contact</span>
             </div>
-        
 <div id="contact-container">
     <div id="details-section">
         <label for="name">Your Name</label>
@@ -987,7 +948,7 @@ padding:10px;
               <span style="font-size:1rem">saianvithamamidala17@gmail.com </span>
           </div>
     </div>
-      </div>
+      </div>   
         <div id="social-icons">
                 <ul class="horizontal-list text-center social-icons">
                     <li>
@@ -1021,9 +982,12 @@ padding:10px;
                 	---Anvitha
                 </div>
     </section>
-    </main>
-</body>
-	</html>
+    
+
+
+	
+
+   
 
 
 	
