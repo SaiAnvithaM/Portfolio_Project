@@ -1,4 +1,3 @@
-#Anvitha's Portfolio
 <html lan="en">
 <head>
 	<meta charset="UTF-8">
@@ -530,7 +529,7 @@ padding:10px;
     transform:rotate(90deg);
 }
 /*responsive*/
-@media screen and (min-width:500px){
+@media screen and (max-width:500px){
     .timeline-box{
         text-align: center;
         height:200px;
@@ -566,13 +565,6 @@ padding:10px;
 .timeline-box:nth-child(2n)::after{
     visibility: hidden;
 }
-.Eduline-box:nth-child(2n){
-    left:0%;
-    width:92%;
-}
-.Eduline-box:nth-child(2n+1){
-    width:92%;
-}
 .Eduline-box:nth-child(2n+1)::after{
     visibility: hidden;
 }
@@ -584,6 +576,20 @@ padding:10px;
     margin:auto;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+	.Eduline-box{
+        text-align: center;
+        height:200px;
+        width:80%;
+    }
+    .Eduline-box:nth-child(2n){
+    left:0%;
+}
+.Eduline-box{
+    width:95%;
+   margin:auto;
+    margin-bottom: 5px;
+    padding:10px 5px 10px 5px;
 }
 .Eduline-divider{
     visibility: hidden;
@@ -610,18 +616,25 @@ padding:10px;
     padding:75px;
     width:75%;
 }
-.achieveline-box:nth-child(2n+1){
-    width:92%;
-}
-.achieveline-box:nth-child(2n){
-    left:5%;
-    width:92%;
-}
 .achieveline-box:nth-child(2n+1)::after{
    visibility: hidden;
 }
 .achieveline-box:nth-child(2n)::after{
     visibility: hidden;
+}
+	.achieveline-box{
+        text-align: center;
+        height:200px;
+        width:80%;
+    }
+    .achieveline-box:nth-child(2n){
+    left:0%;
+}
+.achieveline-box{
+    width:95%;
+   margin:auto;
+    margin-bottom: 5px;
+    padding:10px 5px 10px 5px;
 }
 .achieveline-divider{
     visibility: hidden;
@@ -809,7 +822,6 @@ padding:10px;
                 </div>
                 </div>
             </div>
-            </div>
         </section>
         <section id="education">
              <h1>
@@ -835,7 +847,6 @@ padding:10px;
                     <i class="fa-solid fa-car-side"></i>
                 </div>
                 </div>
-            </div>
             </div>
         </section>
         <section id="Achievements">
@@ -874,11 +885,10 @@ padding:10px;
                     <i class="fa-solid fa-star"></i>
                 </div>
                 </div>
-        </section>
         <section id="contact">
         <div id="heading-section">
         <span><i class="fa-regular fa-address-card" style="color:white"></i></span>
-            <span id="contact-heading">Contact</span>
+            <span id="contact-heading"  style="color:white">Contact</span>
             </div>
 <div id="contact-container">
     <div id="details-section">
@@ -891,28 +901,28 @@ padding:10px;
         <button type="button">SEND MESSAGE TO ANVITHA<i class="fa-solid fa-heart" style="color: red; font-size: 20px;"></i></button>
     </div>
       <div id="aside-section">
-          <h1>
+          <h1  style="color:white">
               Get in touch
           </h1>
           <p>
               For any queries you can reach me out at any time  
           </p>
           <div id="address-title-div">
-          <h1 id="address-title">
+          <h1 id="address-title"  style="color:white">
               My Address
           </h1>
       </div>
           <div id="div1">
           <span><i class="fa-solid fa-location-dot"></i></span>
-          <span>Karimnagar, Telangana, India</span>
+          <span  style="color:white">Karimnagar, Telangana, India</span>
                 </div>
           <div id="div2">
               <span><i class="fa-solid fa-mobile-screen"></i></span>
-              <span>8985229474</span>
+              <span  style="color:white">8985229474</span>
           </div>
           <div id="div 3">
               <span><i class="fa-regular fa-envelope"></i></span>
-              <span style="font-size:1rem">saianvithamamidala17@gmail.com </span>
+              <span style="font-size:1rem" style="color:white">saianvithamamidala17@gmail.com </span>
           </div>
     </div>
       </div>   
