@@ -137,7 +137,7 @@ section:nth-child(2n+1){
 /*All the small elements in a container*/
 .skill-display{
     height:auto;
-    wdith:75%;
+    wdith:100%;
     padding:10px;
     margin-bottom:30px;
     display:flex;
@@ -511,15 +511,15 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
-.achieveline-divider{
+/* .achieveline-divider{
     border:2px dashed lightblue;
-   height:85%;
+   height:75%;
     width:0;
     position:absolute;
     top:3%;
     left:50%;
-}
-.achieveline-star{
+} */
+/* .achieveline-star{
     color:#1d4498;
     font-size:10px;
     top:80%;
@@ -527,7 +527,7 @@ padding:10px;
     z-index:2;
 /*    margin-left:-10%;*/
     transform:rotate(90deg);
-}
+} */
 /*responsive*/
 @media screen and (max-width:500px){
     .timeline-box{
@@ -853,7 +853,6 @@ padding:10px;
           <h1>
               <span><i class="fa-solid fa-star"></i>
               <span>Achievements</span>
-            </h1>
             <div class="achieveline">
                 <div class="achieveline-box">
                 	<p>
