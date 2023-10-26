@@ -1,4 +1,3 @@
-#Anvitha's Portfolio
 <html lan="en">
 <head>
 	<meta charset="UTF-8">
@@ -148,52 +147,52 @@ section:nth-child(2n+1){
 }
 /*for java C++ py*/
 .skill-progress{
-    height:1.8rem;
-    width:7rem;
-    margin:20px;
-/*    padding-left:5%;*/
-    border-radius:0.8rem;
-    background-color: lightgrey;
-}
-.skill-progress > div{
-    border-radius: 20px 0px 0px 20px;
+height:1.8rem;
+width:7rem;
+background-color: lightgrey;
+margin:20px;
+border-radius:20px;
 }
 .percent_1{
     width:75%;
     height:inherit;
 }
 .percent_1_color{
-    background-color:#466de4 ;
+    background-color: #466de4;
+}
+.skill-progress>div{
+  border-radius: 20px 0px 0px 20px;
 }
 .percent_1 span{
     font-size:1rem;
     margin-left:10px;
+    color:white;
     vertical-align:middle;
     margin-top:-40px;
-    color:white;
 }
 /*for python*/
-.skill-progress2{
-    height:1.8rem;
-    width:7rem;
-    margin:20px;
-    background-color: lightgrey;
-    border-radius: 20px;
+.skill-progress2
+{
+height:1.8rem;
+width:7rem;
+background-color: lightgrey;
+margin:20px;
+border-radius:20px;
 }
 .percent_2{
     width:50%;
     height:inherit;
 }
 .percent_2_color{
-    background-color:#b53131 ;
+    background-color: #824a8b;
 }
 .skill-progress2>div{
-    border-radius: 20px 0px 0px 20px;
+  border-radius: 20px 0px 0px 20px;
 }
 .percent_2 span{
-    color:white;
     font-size:1rem;
     margin-left:10px;
+    color:white;
     vertical-align:middle;
     margin-top:-40px;
 }
@@ -842,7 +841,6 @@ padding:10px;
                 </div>
                 </div>
             </div>
-            </div>
         </section>
         <section id="education">
              <h1>
@@ -868,7 +866,6 @@ padding:10px;
                     <i class="fa-solid fa-car-side"></i>
                 </div>
                 </div>
-            </div>
             </div>
         </section>
         <section id="Achievements">
@@ -907,11 +904,10 @@ padding:10px;
                     <i class="fa-solid fa-star"></i>
                 </div>
                 </div>
-        </section>
         <section id="contact">
         <div id="heading-section">
         <span><i class="fa-regular fa-address-card" style="color:white"></i></span>
-            <span id="contact-heading">Contact</span>
+            <span id="contact-heading" style="color:white">Contact</span>
             </div>
 <div id="contact-container">
     <div id="details-section">
@@ -924,28 +920,28 @@ padding:10px;
         <button type="button">SEND MESSAGE TO ANVITHA<i class="fa-solid fa-heart" style="color: red; font-size: 20px;"></i></button>
     </div>
       <div id="aside-section">
-          <h1>
+          <h1 style="color:white">
               Get in touch
           </h1>
           <p>
               For any queries you can reach me out at any time  
           </p>
           <div id="address-title-div">
-          <h1 id="address-title">
+          <h1 id="address-title" style="color:white">
               My Address
           </h1>
       </div>
           <div id="div1">
           <span><i class="fa-solid fa-location-dot"></i></span>
-          <span>Karimnagar, Telangana, India</span>
+          <span style="color:white">Karimnagar, Telangana, India</span>
                 </div>
           <div id="div2">
               <span><i class="fa-solid fa-mobile-screen"></i></span>
-              <span>8985229474</span>
+              <span style="color:white">8985229474</span>
           </div>
           <div id="div 3">
               <span><i class="fa-regular fa-envelope"></i></span>
-              <span style="font-size:1rem">saianvithamamidala17@gmail.com </span>
+              <span style="font-size:1rem" style="color:white">saianvithamamidala17@gmail.com </span>
           </div>
     </div>
       </div>   
