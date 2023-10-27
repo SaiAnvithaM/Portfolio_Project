@@ -168,7 +168,7 @@ section:nth-child(2n+1){
     font-size:1rem;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
     color:white;
 }
 /*for python*/
@@ -194,7 +194,7 @@ section:nth-child(2n+1){
     font-size:1rem;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
 }
 /*for HTML*/
 .skill-progress3
@@ -220,7 +220,7 @@ border-radius:20px;
     margin-left:10px;
     color:white;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
 }
 /*for css*/
 .skill-progress4{
@@ -245,7 +245,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
 }
 /*javascript*/
 .skill-progress5{
@@ -270,7 +270,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
 }
 /*nodeJs*/
 .skill-progress6{
@@ -281,7 +281,7 @@ border-radius:20px;
     margin:20px;
 }
 .percent_6{
-    width:75%;
+    width:45%;
     height:inherit;
 }
 .percent_6_color{
@@ -295,7 +295,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-40px;
+    margin-top:-5px;
 }
 /*  Work Experience*/
 #projects >h1{
@@ -511,23 +511,23 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
-/* .achieveline-divider{
+ .achieveline-divider{
     border:2px dashed lightblue;
-   height:75%;
+   height:40%;
     width:0;
     position:absolute;
     top:3%;
     left:50%;
-} */
-/* .achieveline-star{
+} 
+ .achieveline-star{
     color:#1d4498;
     font-size:10px;
     top:80%;
     position:sticky;
     z-index:2;
-/*    margin-left:-10%;*/
+    margin-left:-10%;
     transform:rotate(90deg);
-} */
+} 
 /*responsive*/
 @media screen and (max-width:500px){
     .timeline-box{
@@ -630,6 +630,9 @@ padding:10px;
     .achieveline-box:nth-child(2n){
     left:0%;
 }
+.achieveline-box:nth-child(2n+1){
+    left:0%;
+}
 .achieveline-box{
     width:95%;
    margin:auto;
@@ -646,17 +649,17 @@ padding:10px;
     display:block;
 }
 #details-section label{
-    font-size: 20px;
+    font-size: 15px;
     margin:0%;
 }
 #aside-section{
     font-size: 20px;
-    width:100%;
+    width:50%;
     text-align: center;
 }
 #aside-section h1{
     text-decoration: underline;
-    font-size: 28px;
+    font-size: 20px;
 }
 #address-title {
     text-align: center;
@@ -764,7 +767,7 @@ padding:10px;
         <div class="skill-progress2">
             <div class="percent_2 percent_2_color">
             <div class="skill-name2">
-                <span>Python</span>
+                <span>C</span>
             </div>
         </div>
 	</div>
@@ -810,11 +813,11 @@ padding:10px;
             </div>
                 <div class="timeline-box">
                      <h5>Single Playlist Screen</h5>
-                    <p>Developed a playlist using front-end technologies-HTML and CSS</p>
+                    <p>Developed a playlist user interface using front-end technologies-HTML and CSS</p>
                     </div>
                 <div class="timeline-box">
                      <h5>Corona cases details</h5>
-                    <p>Developed a project which tells about number of covid cases, number of cases in which patient has recoverd and total death cases, using python</p>
+                    <p>Designed a project which tells about number of covid cases, number of cases in which patient has recoverd and total death cases, using python</p>
                 </div>
                 <div class="timeline-divider">
                     <div class="timeline-plane">
@@ -861,7 +864,7 @@ padding:10px;
             </div>
             <div class="achieveline-box">
             	<p>
-                Scord <w>3rd</w> rank in overall <b>ECE</b> Branch in the college till %th semester with <w>8.30</w> CGPA.
+                Scored <w>3rd</w> rank in overall <b>ECE</b> Branch in the college till 6th semester with <w>8.40</w> CGPA.
             </p>
             </div>
             <div class="achieveline-box">
@@ -904,7 +907,7 @@ padding:10px;
               Get in touch
           </h1>
           <p>
-              For any queries you can reach me out at any time  
+            You can connect with me  at any time  
           </p>
           <div id="address-title-div">
           <h1 id="address-title"  style="color:white">
@@ -925,7 +928,7 @@ padding:10px;
           </div>
     </div>
       </div>   
-        <div id="social-icons">
+        <div id="social-icons" >
                 <ul class="horizontal-list text-center social-icons">
                     <li>
                         <a href="https://www.linkedin.com/in/sai-anvitha-mamidala-5b7668218/">
