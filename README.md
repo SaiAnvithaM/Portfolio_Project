@@ -758,23 +758,22 @@ padding:10px;
              <h1 class="section-heading mb-75px">
             <span><i class="fa-solid fa-chalkboard-user"></i>
             </span>
-                <span>SKILLS</span>
+                <span>SKILLS</span> </h1>
     <div class="skill-display">
         <div class="skill-progress">
-            <div class="percent_1 percent_1_color"
+            <div class="percent_1 percent_1_color">
             <div class="skill-name">
                 <span>Java</span>
             </div>
-        </div>
+        </div></div>
         <div class="skill-progress2">
-            <div class="percent_2 percent_2_color"
+            <div class="percent_2 percent_2_color">
             <div class="skill-name2">
                 <span>HTML</span>
             </div>
-        </div>
+        </div></div>
     <div class="skill-progress3">
-        <div class=
-        "percent_3 percent_3_color">
+        <div class="percent_3 percent_3_color">
         <div class="skill-name3">
             <span>CSS</span>
         </div>
@@ -801,9 +800,8 @@ padding:10px;
             </div>
         </div>
     </div>
-   </div>
+    </div>
 </section>
-        </section>
         <section id="projects"> 
             <h1 class="projects-heading mb75px">
             <span><i class="fa-sharp fa-solid fa-lightbulb-gear"></i></span>
@@ -856,7 +854,7 @@ padding:10px;
         <section id="Achievements">
           <h1>
               <span><i class="fa-solid fa-star"></i>
-              <span>Achievements</span>
+              Achievements</span>
             </h1>
             <div class="achieveline">
                 <div class="achieveline-box">
