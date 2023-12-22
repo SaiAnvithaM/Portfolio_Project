@@ -9,13 +9,13 @@
     font-family: sans-serif;
     font-size: 30px;
     height:29.7cm;
-    width:21cm;
+    width: 100%;
 }
 /* Body Header */
 #body-header {
-    height: 65vh;
-/*    opacity: 0.8;*/
-    background-image: url(https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwZGFya3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    height: 75vh;
+   opacity: 1;
+    background-image: url(https://w0.peakpx.com/wallpaper/306/837/HD-wallpaper-usb-flash-drive-attached-to-laptop-computer.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -26,6 +26,9 @@
     list-style: none;
     padding-left: 0px;
     margin: 0px;
+}
+.horizontal-list img{
+    font-size:10px;
 }
 .horizontal-list li {
     display: inline-block;
@@ -74,17 +77,16 @@
     position: relative;
 }
 #my-image {
-    height: 15rem;
-    width: 15rem;
+    height: 20rem;
+    width: 20rem;
     margin: auto;
-    margin-top:-5vh;
+    margin-top:-20vh;
 }
 #my-image img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
     border:3px solid white;
-    border-shadow:0px 0px 60px 40px lightgrey;
 }
 #Stylepara{
     margin:2% 10% 2% 10%;
@@ -92,7 +94,7 @@
     text-align: center;
 }
 #about #my-image img{
-     border-shadow:0px 0px 60px 40px lightgrey;
+     box-shadow:0px 0px 6px 4px lightgrey;
 }
 /*  Skills section*/
 #skills{
@@ -116,7 +118,7 @@ section:nth-child(2n+1){
     padding:20px 10px 10px;
     margin:10px auto;
     font-weight:400px;
-    align-text:center;
+    text-align:center;
 }
 .section-heading span{
     font-size:40px;
@@ -137,7 +139,7 @@ section:nth-child(2n+1){
 /*All the small elements in a container*/
 .skill-display{
     height:auto;
-    wdith:100%;
+    width:75%;
     padding:10px;
     margin-bottom:30px;
     display:flex;
@@ -145,56 +147,56 @@ section:nth-child(2n+1){
     justify-content: space-evenly;
 /*    background-color: #e7dcdc;*/
 }
-/*for java C++ py*/
+/*for java */
 .skill-progress{
-    height:1.8rem;
-    width:7rem;
-    margin:20px;
-/*    padding-left:5%;*/
-    border-radius:0.8rem;
-    background-color: lightgrey;
-}
-.skill-progress > div{
-    border-radius: 20px 0px 0px 20px;
+height:1.8rem;
+width:7rem;
+background-color: lightgrey;
+margin:20px;
+border-radius:20px;
 }
 .percent_1{
     width:75%;
     height:inherit;
 }
 .percent_1_color{
-    background-color:#466de4 ;
+    background-color: #466de4;
+}
+.skill-progress>div{
+  border-radius: 20px 0px 0px 20px;
 }
 .percent_1 span{
     font-size:1rem;
     margin-left:10px;
-    vertical-align:middle;
-    margin-top:-5px;
     color:white;
+    vertical-align:middle;
+    /* margin-top:-40px; */
 }
 /*for python*/
-.skill-progress2{
-    height:1.8rem;
-    width:7rem;
-    margin:20px;
-    background-color: lightgrey;
-    border-radius: 20px;
+.skill-progress2
+{
+height:1.8rem;
+width:7rem;
+background-color: lightgrey;
+margin:20px;
+border-radius:20px;
 }
 .percent_2{
-    width:50%;
+    width:90%;
     height:inherit;
 }
 .percent_2_color{
-    background-color:#b53131 ;
+    background-color: #824a8b;
 }
 .skill-progress2>div{
-    border-radius: 20px 0px 0px 20px;
+  border-radius: 20px 0px 0px 20px;
 }
 .percent_2 span{
-    color:white;
     font-size:1rem;
     margin-left:10px;
+    color:white;
     vertical-align:middle;
-    margin-top:-5px;
+    /* margin-top:-40px; */
 }
 /*for HTML*/
 .skill-progress3
@@ -206,7 +208,7 @@ margin:20px;
 border-radius:20px;
 }
 .percent_3{
-    width:90%;
+    width:85%;
     height:inherit;
 }
 .percent_3_color{
@@ -220,7 +222,7 @@ border-radius:20px;
     margin-left:10px;
     color:white;
     vertical-align:middle;
-    margin-top:-5px;
+    /* margin-top:-40px; */
 }
 /*for css*/
 .skill-progress4{
@@ -231,7 +233,7 @@ border-radius:20px;
     margin:20px;
 }
 .percent_4{
-    width:80%;
+    width:50%;
     height:inherit;
 }
 .percent_4_color{
@@ -245,7 +247,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-5px;
+    /* margin-top:-40px; */
 }
 /*javascript*/
 .skill-progress5{
@@ -256,7 +258,7 @@ border-radius:20px;
     margin:20px;
 }
 .percent_5{
-    width:50%;
+    width:40%;
     height:inherit;
 }
 .percent_5_color{
@@ -270,7 +272,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-5px;
+    /* margin-top:-40px; */
 }
 /*nodeJs*/
 .skill-progress6{
@@ -281,7 +283,7 @@ border-radius:20px;
     margin:20px;
 }
 .percent_6{
-    width:45%;
+    width:40%;
     height:inherit;
 }
 .percent_6_color{
@@ -295,7 +297,7 @@ border-radius:20px;
     color:white;
     margin-left:10px;
     vertical-align:middle;
-    margin-top:-5px;
+    /* margin-top:-40px; */
 }
 /*  Work Experience*/
 #projects >h1{
@@ -318,6 +320,9 @@ border-radius:20px;
     min-height:150px;
     border:2px solid black;
     margin:5px;
+}
+.timeline-box:nth-child(2n){
+    left:53%;
 }
 .timeline-divider{
     border:2px dashed lightblue;
@@ -370,6 +375,9 @@ border-radius:20px;
 }
 w{
     color: blue;
+}
+.Eduline-box:nth-child(2n){
+    left:53%;
 }
 .Eduline-divider{
     border:2px dashed lightblue;
@@ -511,25 +519,47 @@ padding:10px;
 .achieveline-box:nth-child(2n){
     left:57%;
 }
- .achieveline-divider{
+/*.achieveline-box:nth-child(2n+1)::after{
+    content:'';
+    border-radius:50%;
+    background-color:red;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    right:-12%;
+    position:absolute;
+    z-index:1;
+}
+.achieveline-box:nth-child(2n)::after{
+    content:'';
+    border-radius:50%;
+    background-color:red;
+    height:0.5rem;
+    width:0.5rem;
+    top:27%;
+    left:-10%;
+    position:absolute;
+    z-index:1;
+}*/
+.achieveline-divider{
     border:2px dashed lightblue;
    height:40%;
     width:0;
     position:absolute;
     top:3%;
     left:50%;
-} 
- .achieveline-star{
+}
+.achieveline-star{
     color:#1d4498;
     font-size:10px;
     top:80%;
     position:sticky;
     z-index:2;
-    margin-left:-10%;
+/*    margin-left:-10%;*/
     transform:rotate(90deg);
-} 
+}
 /*responsive*/
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     .timeline-box{
         text-align: center;
         height:200px;
@@ -565,6 +595,13 @@ padding:10px;
 .timeline-box:nth-child(2n)::after{
     visibility: hidden;
 }
+.Eduline-box:nth-child(2n){
+    left:0%;
+    width:92%;
+}
+.Eduline-box:nth-child(2n+1){
+    width:92%;
+}
 .Eduline-box:nth-child(2n+1)::after{
     visibility: hidden;
 }
@@ -576,20 +613,6 @@ padding:10px;
     margin:auto;
     margin-bottom: 10px;
     margin-top: 5px;
-}
-	.Eduline-box{
-        text-align: center;
-        height:200px;
-        width:80%;
-    }
-    .Eduline-box:nth-child(2n){
-    left:0%;
-}
-.Eduline-box{
-    width:95%;
-   margin:auto;
-    margin-bottom: 5px;
-    padding:10px 5px 10px 5px;
 }
 .Eduline-divider{
     visibility: hidden;
@@ -604,7 +627,7 @@ padding:10px;
     width:100%;
 }
 .aside-section{
-    vertical-align: down;
+    /* vertical-align: down; */
     font-size:1.5rem;
     text-align:left;
      display:inline-block;
@@ -616,28 +639,18 @@ padding:10px;
     padding:75px;
     width:75%;
 }
+.achieveline-box:nth-child(2n+1){
+    width:92%;
+}
+.achieveline-box:nth-child(2n){
+    left:5%;
+    width:92%;
+}
 .achieveline-box:nth-child(2n+1)::after{
    visibility: hidden;
 }
 .achieveline-box:nth-child(2n)::after{
     visibility: hidden;
-}
-	.achieveline-box{
-        text-align: center;
-        height:200px;
-        width:80%;
-    }
-    .achieveline-box:nth-child(2n){
-    left:0%;
-}
-.achieveline-box:nth-child(2n+1){
-    left:0%;
-}
-.achieveline-box{
-    width:95%;
-   margin:auto;
-    margin-bottom: 5px;
-    padding:10px 5px 10px 5px;
 }
 .achieveline-divider{
     visibility: hidden;
@@ -649,17 +662,17 @@ padding:10px;
     display:block;
 }
 #details-section label{
-    font-size: 15px;
+    font-size: 20px;
     margin:0%;
 }
 #aside-section{
     font-size: 20px;
-    width:50%;
+    width:100%;
     text-align: center;
 }
 #aside-section h1{
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 28px;
 }
 #address-title {
     text-align: center;
@@ -719,23 +732,13 @@ padding:10px;
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa-brands fa-stack-overflow"></i>
+                        <a href="https://www.codingninjas.com/studio/profile/Sai_Anvitha">
+                             <i class="fa-solid fa-c"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fa-brands fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-quora"></i>
+                        <a href="https://leetcode.com/Anvitha17/">
+                            <i class="fa-solid fa-l"></i>
                         </a>
                     </li>
                 </ul>
@@ -748,7 +751,7 @@ padding:10px;
                 <img src="https://lh3.googleusercontent.com/9yn1fVa5eGXJy_Knp_1TGQxgYPAWTpty2UJQmh6JKZw_TeNuszshsZy9djq-K8tlwIsvpQajljh119dJDfuT1EhtCyaGafXPNmzjbWUXBtRF01aDoZGrrDxTafOF8fioQhyrOXBeTDLpmqeGlMSfAu-Pj_-7lBSKUO6iMrfQGhkp7loCNpKyyCU1zmi5YPUMZOhoth-2z23lsBs2LeaYdbfU_m6iYv1Kx-E2s5Wow9vDcBYL2tHB0Y4HvlvMDGTBXVNIkPRwiXJpfLjqzoZAP4mDDwon0jDvJZRQskGecaaJ9b9Th-4pu7-qtnCrBxDq0kUwJMQNbIMMDrskjZ-y65S0x5GVow2DCS1VuH-_nQe5FSM1hJ-5fEGSI3kSSUJP96y0f4QaENN4LwzuQriAKSiot3ZChU1xz22GZ0JC0rb-5aLF6bsnBG1634ksddjKQ8CK9BNHdhrf7KZ-CESKmy_PW3Qh5gAfw08uHNEss_day9rYem51ch9CayAwj400KTZAe01qOuYZJGU-Rt9UGYmqZgLwXfQt9W21IRlTwgBvnWlduiZqCy3f__5q7HSGRI1yhtJt5VR6OBO8dRtW525ISRWtXMKXiKCX3Q_Z2KD4PAUBpcTFHEbnwtYCR55HAMyvM63TPSnVpNBC4K7w4J7CfIPwv3KKLYhQ5K2T9VGJuP6xfQe91Ghekez3rueH5iPQTHKzP7v7CI6MDgylf4Orn9t5orGOisL9sD9mxNlRtCULYb8OTrx7RYr1mkrt4a-_DKWsRYNUfL96OpgzfEptIJ4Atlwkhdu5RjiPvHpyPBRQdheZTynMiIf-978ABsTsYHhQu_AwOPph-nUKEyJxTUpczWw3edWiTL_InVe3xWm8hVExtXhPZDkwb3PlCqKZarx6IlJm1UXP7t3Vc48u-VjT9UCIYLQ0_Hgo37sbfIwq=w798-h902-s-no?authuser=0">
             </div>
             <div id="Stylepara">
-            <p>Hard-working pre-final year electronics and communication engineering student with overall <w>8.30</w> CGPA till 5th semster. Used my time to develop aesthetic, responsive, and accessible websites. Worked through hours of bootstrap structure, learning JavaScript, Node.Js, React.Js. Eager to tackle web development/design challenges to achieve lasting impacts on user experience.  </p>
+            <p>Hard-working final year electronics and communication engineering student with overall <w>8.40</w> CGPA till 6th semster. Used my time to develop aesthetic, responsive, and accessible websites. Worked through hours of bootstrap structure, learning JavaScript, Node.Js. Eager to tackle web development/design challenges to achieve lasting impacts on user experience.  </p>
              </div>
         </section>
         <section id="skills">
@@ -758,49 +761,49 @@ padding:10px;
                 <span>SKILLS</span>
     <div class="skill-display">
         <div class="skill-progress">
-            <div class="percent_1 percent_1_color">
+            <div class="percent_1 percent_1_color"
             <div class="skill-name">
                 <span>Java</span>
             </div>
         </div>
-	</div>
         <div class="skill-progress2">
-            <div class="percent_2 percent_2_color">
+            <div class="percent_2 percent_2_color"
             <div class="skill-name2">
-                <span>C</span>
+                <span>HTML</span>
             </div>
         </div>
-	</div>
     <div class="skill-progress3">
         <div class=
         "percent_3 percent_3_color">
         <div class="skill-name3">
-            <span>HTML</span>
+            <span>CSS</span>
         </div>
         </div> 
     </div>
     <div class="skill-progress4">
         <div class="percent_4 percent_4_color">
             <div class="skill-name4">
-                <span>CSS</span>
+                <span>Javascript</span>
             </div>
         </div>
     </div>
     <div class="skill-progress5">
         <div class="percent_5 percent_5_color">
             <div class="skill-name5">
-                <span>Javascript</span>
+                <span>Node.js</span>
             </div>
         </div>
     </div>
     <div class="skill-progress6">
         <div class="percent_6 percent_6_color">
             <div class="skill-name6">
-                <span>NodeJs</span>
+                <span>Express.js</span>
             </div>
         </div>
     </div>
    </div>
+</section>
+        </section>
         <section id="projects"> 
             <h1 class="projects-heading mb75px">
             <span><i class="fa-sharp fa-solid fa-lightbulb-gear"></i></span>
@@ -808,17 +811,15 @@ padding:10px;
     </h1>
             <div class="timeline">
                 <div class="timeline-box">
-                     <h5>Smart Attendence System</h5>
-                     <p>Developed a attendance system using face recognition algorithm where user can update his/her attendance by detecting the faces and saving the date and time in the database</p>
+                     <h5>Contact List</h5>
+                     <p>HTML | CSS | JS | Node.js | Express.js </p>
+                     <p>Developed a Contact list webpage which allows user to store and and display contact information such as name and phone number, it also has a delete option to allow removal of contact of a particular person. </p>
             </div>
                 <div class="timeline-box">
-                     <h5>Single Playlist Screen</h5>
-                    <p>Developed a playlist user interface using front-end technologies-HTML and CSS</p>
+                     <h5>To-Do List </h5>
+                     <p>HTML | CSS | JS | Node.js | Express.js</p>
+                    <p>Developed a To-Do list webpage where user can enter the tasks and their status.</p>
                     </div>
-                <div class="timeline-box">
-                     <h5>Corona cases details</h5>
-                    <p>Designed a project which tells about number of covid cases, number of cases in which patient has recoverd and total death cases, using python</p>
-                </div>
                 <div class="timeline-divider">
                     <div class="timeline-plane">
                     <i class="fa-solid fa-plane"></i>
@@ -834,7 +835,7 @@ padding:10px;
             <div class="Eduline">
                 <div class="Eduline-box">
                 	<p>
-                Pursuing Bachelor of Technology in JNTU College of Engineering, Jagtial, Telangana under department of Electronics and Communications with overall CGPA of <w>8.30</w> till 5th semester.
+                Pursuing Bachelor of Technology in JNTU College of Engineering, Jagtial, Telangana under department of Electronics and Communications with overall CGPA of <w>8.40</w> till 6th semester.
             </p>
             </div>
             <div class="Eduline-box">
@@ -856,6 +857,7 @@ padding:10px;
           <h1>
               <span><i class="fa-solid fa-star"></i>
               <span>Achievements</span>
+            </h1>
             <div class="achieveline">
                 <div class="achieveline-box">
                 	<p>
@@ -864,19 +866,14 @@ padding:10px;
             </div>
             <div class="achieveline-box">
             	<p>
-                Scored <w>3rd</w> rank in overall <b>ECE</b> Branch in the college till 6th semester with <w>8.40</w> CGPA.
+                Scored <w>2nd</w> rank in overall <b>ECE</b> Branch in the college till 6th semester with <w>8.40</w> CGPA.
             </p>
             </div>
             <div class="achieveline-box">
             	<p>
             	Selected for an internship program offered by  <b>Telangana Academy for Skill & Knowledge</b> (TASK) in collaboration with <b>Edunet Foundation</b>
             </p>
-            </div>
-            <div class="achieveline-box">
-            	<p>
-            	Made <w>10+</w> personal projects on <b>Web Development.</b>
-            	</p> 
-            </div>
+            </div> 
             <div class="achieveline-box">
             	<p>
             	Secured <w>76%</w> among <w>4818</w> members in <b>Programming in Java</b> organised by <b>NPTEL</b>
@@ -890,37 +887,37 @@ padding:10px;
         <section id="contact">
         <div id="heading-section">
         <span><i class="fa-regular fa-address-card" style="color:white"></i></span>
-            <span id="contact-heading"  style="color:white">Contact</span>
+            <span id="contact-heading" style="color:white">Contact</span>
             </div>
 <div id="contact-container">
     <div id="details-section">
-        <label for="name">Your Name</label>
+        <div><label for="name">Your Name</label></div>
         <input id="name">
-        <label for="email">Your Email</label>
+        <div><label for="email">Your Email</label></div>
         <input id="name">
-        <label for="message">Enter your Query Here</label>
+        <div><label for="message">Enter your Query Here</label></div>
         <input id="name">
         <button type="button">SEND MESSAGE TO ANVITHA<i class="fa-solid fa-heart" style="color: red; font-size: 20px;"></i></button>
     </div>
       <div id="aside-section">
-          <h1  style="color:white">
+          <h1 style="color:white">
               Get in touch
           </h1>
           <p>
-            You can connect with me  at any time  
+               You can reach me out at any time  
           </p>
           <div id="address-title-div">
-          <h1 id="address-title"  style="color:white">
+          <h1 id="address-title" style="color:white">
               My Address
           </h1>
       </div>
           <div id="div1">
           <span><i class="fa-solid fa-location-dot"></i></span>
-          <span  style="color:white">Karimnagar, Telangana, India</span>
+          <span style="color:white">Karimnagar, Telangana, India</span>
                 </div>
           <div id="div2">
               <span><i class="fa-solid fa-mobile-screen"></i></span>
-              <span  style="color:white">8985229474</span>
+              <span style="color:white">8985229474</span>
           </div>
           <div id="div 3">
               <span><i class="fa-regular fa-envelope"></i></span>
@@ -928,36 +925,35 @@ padding:10px;
           </div>
     </div>
       </div>   
-        <div id="social-icons" >
-                <ul class="horizontal-list text-center social-icons">
-                    <li>
-                        <a href="https://www.linkedin.com/in/sai-anvitha-mamidala-5b7668218/">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-stack-overflow"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-google-plus-g"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-quora"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+      <div>
+        <ul class="horizontal-list text-center social-icons">
+            <li>
+                <a href="https://www.linkedin.com/in/sai-anvitha-mamidala-5b7668218/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.codingninjas.com/studio/profile/Sai_Anvitha">
+                     <i class="fa-solid fa-c"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://leetcode.com/Anvitha17/">
+                    <i class="fa-solid fa-l"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
         <div style="color:lightyellow;font-size:20px;text-align: right; margin:30px 0px 20px 30px">
                 	---Anvitha
                 </div>
     </section>
+    
+
+
+	
+
+   
+
+
+	
